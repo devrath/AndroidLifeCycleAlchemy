@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.techyourchance.androidlifecycles">
+    package="com.istudio.androidlifecycles">
 
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 
     <application
-        android:name=".CustomApplication"
+        android:name="com.istudio.androidlifecycles.CustomApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -17,7 +17,7 @@
         android:theme="@style/Theme.AndroidLifecyclesCourse">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.istudio.androidlifecycles.MainActivity"
             android:exported="true"
             >
             <intent-filter>
@@ -26,47 +26,47 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SecondActivity"/>
+        <activity android:name="com.istudio.androidlifecycles.SecondActivity"/>
 
-        <activity android:name=".TransparentActivity" android:theme="@style/ThemeTranslucent"/>
+        <activity android:name="com.istudio.androidlifecycles.TransparentActivity" android:theme="@style/ThemeTranslucent"/>
 
-        <activity android:name=".fragments.FragmentHostActivity"/>
+        <activity android:name="com.istudio.androidlifecycles.fragments.FragmentHostActivity"/>
 
         <activity
-            android:name=".configchanges.ConfigChangeActivity"
+            android:name="com.istudio.androidlifecycles.configchanges.ConfigChangeActivity"
             android:windowSoftInputMode="stateUnchanged"
             />
 
         <activity
-            android:name=".configchanges.ManualConfigChangeActivity"
+            android:name="com.istudio.androidlifecycles.configchanges.ManualConfigChangeActivity"
             android:windowSoftInputMode="stateUnchanged"
             android:configChanges="orientation|screenLayout|screenSize"
             />
 
-        <activity android:name=".viewmodel.ViewModelActivity"/>
+        <activity android:name="com.istudio.androidlifecycles.viewmodel.ViewModelActivity"/>
 
-        <activity android:name=".saveandrestore.SaveAndRestoreActivity"/>
+        <activity android:name="com.istudio.androidlifecycles.saveandrestore.SaveAndRestoreActivity"/>
 
         <activity
-            android:name=".service.ServiceActivity"
+            android:name="com.istudio.androidlifecycles.service.ServiceActivity"
             android:launchMode="singleTop"
             />
 
         <service
-            android:name=".service.MyService"
+            android:name="com.istudio.androidlifecycles.service.MyService"
             android:enabled="true"
             android:exported="false"
             />
 
         <service
-            android:name=".service.MyForegroundService"
+            android:name="com.istudio.androidlifecycles.service.MyForegroundService"
             android:enabled="true"
             android:exported="false"
             android:foregroundServiceType="dataSync"
             />
 
         <service
-            android:name=".service.MyOverlayService"
+            android:name="com.istudio.androidlifecycles.service.MyOverlayService"
             android:enabled="true"
             android:exported="false"
             />
