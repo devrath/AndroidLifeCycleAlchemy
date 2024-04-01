@@ -11,6 +11,7 @@
 
 
 * [`Process Lifecycle`](https://github.com/devrath/AndroidLifeCycleAlchemy/wiki/Process-Lifecycle)
+* [`Application class`](https://github.com/devrath/AndroidLifeCycleAlchemy/wiki/Application-Class)
 
 
 
