@@ -9,11 +9,10 @@
 </div>
 
 
-* **`LIFE-CYCLE`**
+* **`Application life-cycle`**
   * [`Process`](https://github.com/devrath/AndroidLifeCycleAlchemy/wiki/Process-Lifecycle)
   * [`Application class`](https://github.com/devrath/AndroidLifeCycleAlchemy/wiki/Application-Class)
-
-
+  * [`Application.onCreate()`](https://github.com/devrath/AndroidLifeCycleAlchemy/wiki/Application.onCreate())
 
 
 
