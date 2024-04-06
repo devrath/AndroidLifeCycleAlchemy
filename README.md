@@ -14,6 +14,8 @@
   * [`Application class`](https://github.com/devrath/AndroidLifeCycleAlchemy/wiki/Application-Class)
   * [`Application.onCreate()`](https://github.com/devrath/AndroidLifeCycleAlchemy/wiki/Application.onCreate())
   * [`Detecting transition of foreground/background functionality`](https://github.com/devrath/AndroidLifeCycleAlchemy/wiki/Detecting-transition-of-foreground-background-functionality)
+* **`Activity life-cycle`**
+  * [`About Activities`](https://github.com/devrath/AndroidLifeCycleAlchemy/wiki/About-Activities)
 
 
 
